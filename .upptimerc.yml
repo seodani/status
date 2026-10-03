@@ -1,31 +1,68 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: seodani
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  # ==================================================
+  # kr-central - 서버 자체
+  # ==================================================
+
+  - name: 다니엘 스튜디오 (kr-central)
+    check: "tcp-ping"
+    url: kr-central.danielstudio.kr
+    port: 443
+
+  # kr-central 하위 서비스
+
+  - name: 다니엘 스튜디오 홈페이지
+    url: https://danielstudio.kr
+
+  - name: 다니엘 스튜디오 콘텐츠 서버
+    url: https://contents.danielstudio.kr
+
+  - name: 다니엘 스튜디오 요리 레시피
+    url: https://cookrecipe.danielstudio.kr
+
+
+  # ==================================================
+  # kr-storage-01 - 서버 자체
+  # ==================================================
+
+  - name: 다니엘 스튜디오 (kr-storage-01)
+    check: "tcp-ping"
+    url: kr-storage-01.danielstudio.kr
+    port: 443
+
+  # kr-storage-01 하위 서비스
+
+  - name: 다니엘 스튜디오 스토리지 서버
+    url: https://kr-storage-01.danielstudio.kr
+
+
+  # ==================================================
+  # kr-edge-01 - 서버 자체
+  # ==================================================
+
+  - name: 다니엘 스튜디오 (kr-edge-01)
+    check: "tcp-ping"
+    url: kr-edge-01.danielstudio.kr
+    port: 443
+
+  # kr-edge-01 하위 서비스
+
+  - name: 다니엘 스튜디오 새로운 콘텐츠 서버
+    url: https://new-contents.danielstudio.kr
+
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  baseUrl: /status
+  name: Daniel Studio Status
+  introTitle: "다니엘 스튜디오 서비스 상태"
+  introMessage: "다니엘 스튜디오에서 운영하는 서버 및 서비스의 현재 상태를 확인할 수 있습니다."
+  theme: light
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# 짧은 장애도 기록 보존
+skipDeleteIssues: true
+
+# 5분마다 검사
+workflowSchedule:
+  uptime: "*/5 * * * *"
