@@ -54,7 +54,7 @@ sites:
 
 
 status-website:
-  baseUrl: /status
+  cname: status.danielstudio.kr
   name: Daniel Studio Status
   introTitle: "다니엘 스튜디오 서비스 상태"
   introMessage: "다니엘 스튜디오에서 운영하는 서버 및 서비스의 현재 상태를 확인할 수 있습니다."
