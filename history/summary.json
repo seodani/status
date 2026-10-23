@@ -79,18 +79,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "kr-storage-01",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.65%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.53%",
+    "uptimeDay": "90.95%",
+    "uptimeWeek": "98.71%",
+    "uptimeMonth": "99.53%",
+    "uptimeYear": "99.53%",
     "time": 156,
     "timeDay": 0,
     "timeWeek": 159,
     "timeMonth": 156,
     "timeYear": 156,
     "dailyMinutesDown": {
-      "2026-10-23": 5
+      "2026-10-23": 130
     }
   },
   {
@@ -99,18 +99,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/kr-storage-01.danielstudio.kr.ico",
     "slug": "다니엘-스튜디오-스토리지-서버",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.55%",
+    "uptimeDay": "91.29%",
+    "uptimeWeek": "98.76%",
+    "uptimeMonth": "99.55%",
+    "uptimeYear": "99.55%",
     "time": 571,
     "timeDay": 0,
     "timeWeek": 583,
     "timeMonth": 571,
     "timeYear": 571,
     "dailyMinutesDown": {
-      "2026-10-23": 0
+      "2026-10-23": 125
     }
   },
   {
