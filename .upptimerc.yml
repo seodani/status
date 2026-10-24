@@ -1,3 +1,4 @@
+
 owner: seodani
 repo: status
 
@@ -36,21 +37,6 @@ sites:
 
   - name: 다니엘 스튜디오 스토리지 서버
     url: https://kr-storage-01.danielstudio.kr
-
-
-  # ==================================================
-  # kr-edge-01 - 서버 자체
-  # ==================================================
-
-  - name: 다니엘 스튜디오 (kr-edge-01)
-    check: "tcp-ping"
-    url: kr-edge-01.danielstudio.kr
-    port: 443
-
-  # kr-edge-01 하위 서비스
-
-  - name: 다니엘 스튜디오 새로운 콘텐츠 서버
-    url: https://new-contents.danielstudio.kr
 
 
 status-website:
