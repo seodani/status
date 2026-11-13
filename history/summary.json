@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 155,
-    "timeDay": 160,
-    "timeWeek": 157,
-    "timeMonth": 155,
-    "timeYear": 155,
+    "time": 154,
+    "timeDay": 135,
+    "timeWeek": 154,
+    "timeMonth": 153,
+    "timeYear": 154,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1634,
-    "timeDay": 1734,
+    "time": 1629,
+    "timeDay": 1387,
     "timeWeek": 1608,
-    "timeMonth": 1660,
-    "timeYear": 1634,
+    "timeMonth": 1642,
+    "timeYear": 1629,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 674,
-    "timeDay": 796,
-    "timeWeek": 648,
-    "timeMonth": 694,
-    "timeYear": 674,
+    "time": 671,
+    "timeDay": 567,
+    "timeWeek": 639,
+    "timeMonth": 689,
+    "timeYear": 671,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 677,
-    "timeDay": 788,
-    "timeWeek": 703,
-    "timeMonth": 682,
-    "timeYear": 677,
+    "time": 674,
+    "timeDay": 570,
+    "timeWeek": 694,
+    "timeMonth": 674,
+    "timeYear": 674,
     "dailyMinutesDown": {
       "2026-10-03": 14
     }
@@ -79,19 +79,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "kr-storage-01",
     "status": "down",
-    "uptime": "98.32%",
-    "uptimeDay": "99.65%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "97.77%",
-    "uptimeYear": "98.32%",
+    "uptime": "98.09%",
+    "uptimeDay": "90.50%",
+    "uptimeWeek": "98.64%",
+    "uptimeMonth": "97.47%",
+    "uptimeYear": "98.09%",
     "time": 153,
-    "timeDay": 159,
-    "timeWeek": 156,
-    "timeMonth": 153,
+    "timeDay": 0,
+    "timeWeek": 157,
+    "timeMonth": 152,
     "timeYear": 153,
     "dailyMinutesDown": {
       "2026-10-23": 971,
-      "2026-11-13": 5
+      "2026-11-13": 137
     }
   },
   {
@@ -100,18 +100,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/kr-storage-01.danielstudio.kr.ico",
     "slug": "다니엘-스튜디오-스토리지-서버",
     "status": "down",
-    "uptime": "98.33%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "97.80%",
-    "uptimeYear": "98.33%",
+    "uptime": "98.11%",
+    "uptimeDay": "90.84%",
+    "uptimeWeek": "98.69%",
+    "uptimeMonth": "97.49%",
+    "uptimeYear": "98.11%",
     "time": 585,
-    "timeDay": 504,
-    "timeWeek": 579,
-    "timeMonth": 595,
+    "timeDay": 0,
+    "timeWeek": 596,
+    "timeMonth": 591,
     "timeYear": 585,
     "dailyMinutesDown": {
-      "2026-10-23": 966
+      "2026-10-23": 966,
+      "2026-11-13": 132
     }
   }
 ]
